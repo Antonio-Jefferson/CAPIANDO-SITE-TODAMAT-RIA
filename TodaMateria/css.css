@@ -4,6 +4,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   
+}
+p{
+    padding: 10px;
 }
 body{
     background-color: #f5f5f5;
@@ -19,6 +23,9 @@ header{
 }
 h1{
     color: white;
+}
+.titulo{
+    color:black;
 }
 .logo{
     font-size: 26px;
@@ -84,7 +91,10 @@ div{
 
 footer{
     background-color:#264156;
-    height: 40px;
+    height: 250px;
     width: 100%;
     margin-top: 12px;
+}
+.contato{
+    display: flex;
 }
